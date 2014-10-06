@@ -1,0 +1,175 @@
+@charset "utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	margin: 10px;
+	font: 0.8em "Trebuchet MS", Georgia, Arial;
+	color: #C7CBC7;
+	background: #000000;
+	}
+#content{
+	position: relative;
+	width: 800px;
+	margin: 0 auto;
+	border: 2px solid #C71217;
+	background: #2F2E2E/*  url(medias/bg_page.gif) repeat-y left top */;
+	}
+#top{
+	width: 792px;
+	height: 126px;
+	padding: 2px;
+	background-color: #2F2E2E;
+	border: 2px solid #C7CBC7;
+	}
+#top_ban{
+	width: 788px;
+	height: 120px;
+	border: 2px solid #C7CBC7;
+	background: url(medias/top_ban.jpg) no-repeat left bottom;
+	}
+#menu {
+	font: 0.9em Tahoma, sans;
+	text-align: left;
+	list-style-type: none;
+	height: 24px;
+	line-height: 24px;
+	border-bottom: 2px solid #C7CBC7;
+	border-left: 2px solid #C7CBC7;
+	border-right: 2px solid #C7CBC7;
+	background: #640D07 url(medias/menu_bg.gif) repeat-x left top;
+}
+#menu li {
+	display: inline;
+	font-weight: bold;
+	height: 24px;
+	line-height: 24px;
+	padding: 0px 8px 0 8px;
+	text-decoration: none;
+	font-size: 1.2em;
+	text-align: center;
+	color: #FFF;
+	font-variant: small-caps;
+	font-weight: bold;
+	border-right: 2px solid #C7CBC7;
+}
+      /* J'ai changer la couleur du texte du menu de Blanc en Jaune */
+#menu li a {
+	margin: 0 12px;
+	color: #FFFF00;
+	text-decoration: none;
+}
+#menu a:hover {
+	text-decoration: underline;
+}
+#menu2 {
+	float: right;
+	width: 180px;
+	margin-right: 2px;
+}
+#menu2 li, #menu2 li a{
+	color : #FFEA00;
+	height: 22px;
+	background-color : #640D07;
+	padding-left: 10px;
+	border-top: 0px solid #000000;
+}
+#menu2 li a:link, #menu2 li a:visited{
+	background-color : #640D07;
+	border-top: 0px solid #000000;
+}
+#menu2 li a:hover{
+	width: 90%;
+	display: block;
+	background-color : #B30000;
+	color: #FFEA00;
+	border-left: 6px solid #FFFFFF;
+	font-variant: small-caps;
+	font-weight: bold;
+}
+#page{
+	float: left;
+	width: 570px;
+	padding: 30px 10px 10px 20px;
+	min-height: 400px;
+	}
+#footer{
+	width: 796px;
+	height: 18px;
+	padding: 2px;
+	background-color: #640D07;
+	text-align: center;
+	background: #640D07 url(medias/menu_bg.gif) repeat-x left top;
+	clear: both;
+	}
+#footer a{
+	font-size: 0.8em;
+	color: #FFFFFF;
+	}
+a{
+	text-decoration: none;
+	color: #C71217;
+	}
+a:hover{
+	text-decoration: underline;
+	color: #F7F7F7;
+	}
+img.img {
+	border: 1px dashed #E1E2E8;
+	padding: 6px;
+	}
+#top_ban h1{
+	color: #FFF;
+	font: 1.4em Georgia, Arial;
+	padding: 85px 0px 4px 10px;
+	border: 0px solid #E1E2E8;
+	font-weight: bold;
+	font-variant: small-caps;
+	}
+h1{
+	color: #F7F7F7;
+	font: 1.4em Georgia, Arial;
+	border-bottom: 2px solid #C71217;
+	border-left: 4px solid #C71217;
+	text-align: left;
+	font-variant: small-caps;
+	margin: 10px 0px 10px 0px;
+	padding: 0px 10px 0px 10px;
+	}
+h2{
+	width: 60%;
+	color: #F7F7F7;
+	font: 1.2em Georgia, Arial;
+	border-bottom: 1px solid #C71217;
+	margin: 10px 0 10px 0;
+	padding-bottom: 3px;
+	}
+	
+
+ul {
+	list-style-type: square;
+}
+ol{
+	list-style-type: none;
+}
+li{
+	list-style-type: none;
+	margin-top: 12px;
+	}
+p{
+	width: 100%;
+	margin: 12px 0px 30px 0px;
+	}
+ /*Rajout h3, font: Comic sans MS , color : red*/ 
+h3{
+	color: #FF0000;
+	font: 1.4em Georgia, Comic Sans MS;
+	border-bottom: 2px solid #FF0000;
+	border-center: 4px solid #FF0000;
+	text-align: center;
+	font-variant: small-caps;
+	margin: 10px 0px 10px 0px;
+	padding: 0px 10px 0px 10px;
+	}
